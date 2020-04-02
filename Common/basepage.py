@@ -45,3 +45,5 @@ class BasePage:
 
 if __name__ =="__main__":
     print("主函数")
+    print("主函数")
+    print("主函数")
