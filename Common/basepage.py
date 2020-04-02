@@ -15,6 +15,7 @@ class BasePage:
 
     driver = webdriver.Remote('http://127.0.0.1:4723/wd/hub', desired_caps)
 
+
     # 获取屏幕尺寸
     def get_size(self):
         return self.driver.get_window_size()
@@ -42,3 +43,5 @@ class BasePage:
             logging.exception("没有找到匹配的toast")
             raise
 
+if __name__ =="__main__":
+    print("主函数")
